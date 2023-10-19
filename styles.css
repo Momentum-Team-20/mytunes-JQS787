@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+    background-color: lavender;
+}
+
+h3 { 
+    text-align: center;
+    text-size-adjust: 40;
+    
+
+
+}
+
+#search-bar {
+    
+    display:-ms-inline-grid;
+     margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.search-input {
+    width: 60vw;
+
+}
+
+
+
+
+#music-container {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    
+}
+
+.music-cards {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    height: 100px;
+    width: 125px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.song-title {
+    font-size: small;
+    font-weight: bold;
+    color: darkblue;
+}
+
